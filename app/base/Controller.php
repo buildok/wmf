@@ -50,7 +50,7 @@ class Controller
         if(isset($this->request[$type][$param])) {
             $ret = $this->request[$type][$param];
             
-            return is_array($ret) ? $ret : htmlspecialchars(trim($ret));
+            return  $ret;
         }
         
         return  NULL;

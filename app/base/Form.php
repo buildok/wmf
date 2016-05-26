@@ -167,7 +167,7 @@ class Form
             $prop = $field->getName();
             
             if(isset($data[$prop])) {
-                $this->$prop = $data[$prop];
+                $this->$prop = htmlspecialchars(trim($data[$prop]));
                 $ret = $ret || true;
             }
         }            
