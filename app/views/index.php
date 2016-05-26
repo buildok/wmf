@@ -15,5 +15,5 @@ use app\models\Lang;
         <li><span><?= Lang::T('multi-language interface')?></span></li>
     </ul>
     
-    <p><a href=""><?= Lang::T('View the Project on GitHub') ?></a></p>
+    <p><a href="https://github.com/buildok/wmf" target="_blanc"><?= Lang::T('View the Project on GitHub') ?></a></p>
 </div>
